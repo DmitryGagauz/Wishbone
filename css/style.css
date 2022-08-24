@@ -110,6 +110,99 @@ header nav li:last-of-type a{
    color: #1B1A1A;
    margin-left: 25px;
 }
+.what_we_do{
+   padding: 100px 0;
+   background-color: #E5E5E5;
+   font-family: 'Poppins';
+   font-style: normal;
+   font-weight: 400;
+}
+.what_we_do-container{
+   max-width: 1200px;
+   margin: auto;
+   text-align: center;
+}
+.what_we_do-container h3{
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 20px;
+   text-align: center;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+   color: #645C55;
+}
+.what_we_do-container h2{
+   font-weight: 400;
+   font-size: 39px;
+   line-height: 42px;
+   text-align: center;
+   color: #1B1A1A;
+   margin-top: 13px;
+   margin-bottom: 47px;
+}
+.what_we_do-container a{
+   display: inline-block;
+   max-width: 117px;
+}
+.process{
+   display: flex;
+   justify-content: space-around;
+}
+.process h3{
+   margin-top: 15px;
+   margin-bottom: 10px;
+}
+.sketching{
+   max-width: 294px;
+}
+.sketching h3{
+   font-weight: 400;
+   font-size: 18px;
+   line-height: 26px;
+   text-align: center;
+   color: #403E3B;
+   text-transform: none;
+}
+.sketching p{
+   font-size: 15px;
+   line-height: 24px;
+   text-align: center;
+   color: #645C55;
+}
+.finalizing{
+   max-width: 292px;
+}
+.finalizing h3{
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 26px;
+   text-align: center;
+   color: #403E3B;
+   text-transform: none;
+}
+.finalizing p{
+   font-size: 15px;
+   line-height: 24px;
+   text-align: center;
+   color: #645C55;
+}
+.building{
+   max-width: 280px;
+}
+.building h3{
+   font-weight: 400;
+   font-size: 17px;
+   line-height: 26px;
+   text-align: center;
+   color: #403E3B;
+   text-transform: none;
+}
+.building p{
+   font-size: 15px;
+   line-height: 24px;
+   text-align: center;
+   color: #645C55;
+}
 .section{
    padding: 100px 0; background-color: #CEC4BC;
 }
@@ -188,4 +281,23 @@ footer{
 }
 .icons-list-facebook{
    margin: 60px 6px 0 0;
+}
+.owl-carousel .owl-stage{
+   display: flex;
+   justify-content: space-between;
+   text-align: center;
+}
+.owl-dot span{
+   display: inline-block;
+   width: 15px;
+   height: 15px;
+   background-color: #CEC4BC;
+   border-radius: 50%;
+}
+.owl-dot:active span{
+   display: inline-block;
+   width: 15px;
+   height: 15px;
+   background-color: darkorange;;
+   border-radius: 50%;
 }
