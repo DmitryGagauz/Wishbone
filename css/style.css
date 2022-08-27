@@ -289,6 +289,7 @@ footer{
 }
 .owl-dots{
    text-align: center;
+   justify-content: center;
 }
 .owl-dot span{
    display: inline-block;
@@ -296,14 +297,17 @@ footer{
    height: 20px;
    background-color: #CEC4BC;
    border-radius: 50%;
-   margin-left: 5px;
+   transition: width .2s linear;
+   border: #403E3B solid 1px;
+   margin: 0 15px;
 }
-.owl-dot span:active{
+.owl-dot.active span{
    display: inline-block;
-   width: 23px;
-   height: 23px;
-   background-color: darkorange;;
+   width: 20px;
+   height: 20px;
+   background-color: #ffc107;
    border-radius: 50%;
+   margin: 0 15px;
 }
 .ui-widget.ui-widget-content{
    box-shadow: 5px 5px 3px #000;
